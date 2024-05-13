@@ -4,7 +4,7 @@ function Header() {
     return ( 
         <header>
             <span>Olá, visitante!</span>
-            <h1>Bem-vindo ao CineApp!</h1>
+            <h1>Bem-vindo ao CineDigolinha!</h1>
             <Navbar/>
         </header>
      );
