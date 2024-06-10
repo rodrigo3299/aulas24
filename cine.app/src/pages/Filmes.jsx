@@ -8,7 +8,7 @@ function Filmes() {
     const urlBase ='https://api.themoviedb.org/3/movie/' 
     const urlImg = 'https://image.tmdb.org/t/p/w342/ '
 
-    fetch('https://api.themoviedb.org/3/movie/popular?api_key=7c572a9f5b3ba776080330d23bb76e1e')
+    fetch(`${urlBase}popular?api_key=${apiKey}`)
     .then(response => response.json())
     .then(response => setFilmes(response.results))
     .catch(erro => console.log(erro))
