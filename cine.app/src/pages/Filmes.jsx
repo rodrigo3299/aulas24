@@ -17,7 +17,11 @@ function Filmes() {
         <h1>Filmes</h1>
         {
             filmes.map(filme => (
+                <div className="card-filme" key={filme.id}>
                 <h1>{filme.title}</h1>
+                    <img src={`${urlImg}{filme.poster_path}`}/>
+                    <p>{filme.overview}</p>
+                    </div>
             ))
         }
     
