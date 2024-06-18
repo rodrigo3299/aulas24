@@ -2,10 +2,12 @@ import data from '../../artigos.json'
 
 function Home() {
   console.log(data)
+  
     return (  
+      <main className="bg-black">
         <>
-        <input type="text" name="busca" id="busca" placeholder='Digite aqui sua busca'/>
-         <div className='grid grid-cols-3 font-bold text-xl '>
+      
+         <div className='grid grid-cols-3 font-bold text-xl  text-white'>
 
            {data.map(filme => (
               <div className='card' key={filme.title}>
@@ -27,6 +29,7 @@ function Home() {
           }
           </div>
       </>
+      </main>
     );
 }
 

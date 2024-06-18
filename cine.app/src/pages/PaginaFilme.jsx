@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-import { useParams } from 'react-router-dom'
+import { useState, useEffect } from "react"
+import { useParams } from "react-router-dom";
 
 
 function PaginaFilme(){
@@ -10,7 +10,7 @@ function PaginaFilme(){
 
     const apiKey='api_key=d1bef122d48992b960cc79c7306f5c1b'
     const urlBase = 'https://api.themoviedb.org/3/movie/'
-    const urlImg = 'https://image.tmdb.org/t/p/w1280/'
+    const urlImg = 'https://image.tmdb.org/t/p/w400/'
 
     useEffect( () => {
         fetch(`${urlBase}${id}?${apiKey}&language=pt-BR`)
@@ -20,13 +20,14 @@ function PaginaFilme(){
     },[])
 
     return(
+        <main className="bg-black text-white ">
         <>
-            <img src= {`${urlImg}${filme.backdrop_path}`} />
+            <img src= {`${urlImg}${filme.backdrop_path}`} alt="" />
             <h1>{filme.title}</h1>
             <p>{filme.overview}</p>
         </>
         
-
+        </main>
     )
 }
 
