@@ -1,27 +1,27 @@
 [
     {
     "title": "",
-    "image": "carros1.jpg",
+    "image": "planetas.jpg",
     "text": [
-    ""
+    "Aventura - 2h 25m - 14"
     ],
-    "tags": ["Livre para todos", "Animação"]
+    "tags": ["O Reino do Planeta dos Macacos"]
     },
     
         {
         "title": "",
-        "image": "carros1.jpg",
+        "image": "flash.jpg",
         "text": [
-        ""
+        "Ação - 2h 24m - 14"
         ],
-        "tags": ["Livre para todos", "Animação"]
+        "tags": ["The Flash"]
         },
             {
             "title": "",
-            "image": "carros1.jpg",
+            "image": "carros.jpg",
             "text": [
-            ""
+            "Ação - 2h 28m - L"
             ],
-            "tags": ["Livre para todos", "Animação"]
+            "tags": ["Carros"]
             }
 ]
