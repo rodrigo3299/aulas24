@@ -1,4 +1,5 @@
 import data from '../../artigos.json';
+import Carrosel from '../Componentes/Carrosel.jsx';
 
 function Home() {
   console.log(data);

@@ -11,6 +11,7 @@ import Favoritos from './pages/Favoritos.jsx'
 import Noticias from './pages/Noticias.jsx'
 import PaginaFilme from './pages/PaginaFilme.jsx'
 
+
 const router = createBrowserRouter(
   [
     {
