@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
+import Carrosel2 from "../componentes/Carrosel2/Carrosel2";
 
 function Filmes() {
     const [filmes, setFilmes] = useState([]);
@@ -18,6 +19,7 @@ function Filmes() {
     return (
         <main className="bg-black min-h-screen">
             <div className="container mx-auto p-4">
+            <Carrosel2 />
                 <h1 className="text-white text-4xl mb-8 ">EM CARTAZ</h1>
                 <div className="listaFilmes grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {filmes.map(filme => (

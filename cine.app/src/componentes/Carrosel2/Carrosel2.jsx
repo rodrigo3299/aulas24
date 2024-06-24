@@ -1,9 +1,9 @@
 
 import { useState, useEffect } from 'react';
 
-const Carrosel = () => {
+const Carrosel2 = () => {
     const [images] = useState([
-    'jonhwick.jpg',
+    'carros1-2.jpg',
     'deadpool.jpg',
     'guerra.jpg',
     ]);
@@ -20,11 +20,11 @@ const Carrosel = () => {
 
     return (
         <div className="flex justify-center items-center mb-10 mt-4">
-            <div className="w-full max-w-10xl mx-auto">
+            <div className="w-full max-w-8xl mx-auto">
                 <img src={images[currentIndex]} alt={`Imagem ${currentIndex + 1}`} className="w-full h-auto" />
             </div>
         </div>
     );
 };
 
-export default Carrosel;
+export default Carrosel2;
