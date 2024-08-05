@@ -16,6 +16,7 @@ function handleClick() {
     <>
      <p>{contador}</p>
      <button onClick={handleClick}> Aumentar </button>
+       <p>{Math.random()}</p>
     </>
   )
 }
