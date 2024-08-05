@@ -2,21 +2,20 @@
 import { useState } from 'react';
 
 export default function Contador() {
-  const [contador, setContador] = useState(0)
+  const [textoBotao, settextoBotao] = useState('Rebeca')
 
 function handleClick() {
-  setContador("Texto novo")
-  console.log(contador)
+  settextoBotao(textoBotao === "Rebeca" ? "Ouro" : "Rebeca")
 }
 
   return (
     <>
-     <p>{contador}</p>
-     <button onClick={handleClick}> Aumentar </button>
+     <button onClick={handleClick}>{textoBotao}</button>
     </>
     
   )
 }
+
 
 
 
