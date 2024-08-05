@@ -5,9 +5,7 @@ export default function Contador() {
   const [contador, setContador] = useState(0)
 
 function handleClick() {
-  setContador((anterior)=> (
-    anterior + 1
-  ))
+  setContador("Texto novo")
   console.log(contador)
 }
 
@@ -19,6 +17,7 @@ function handleClick() {
     
   )
 }
+
 
 
 
