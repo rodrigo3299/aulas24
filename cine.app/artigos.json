@@ -1,6 +1,6 @@
 [
     {
-    "title": "",
+    "title": "O Reino do Planeta dos Macacos",
     "image": "planetas.jpg",
     "text": [
     "Aventura - 2h 25m - 14"
@@ -9,7 +9,7 @@
     },
     
         {
-        "title": "",
+        "title": "The Flash",
         "image": "flash.jpg",
         "text": [
         "Ação - 2h 24m - 14"
@@ -17,11 +17,36 @@
         "tags": ["The Flash"]
         },
             {
-            "title": "",
+            "title": "Carros",
             "image": "carros.jpg",
             "text": [
             "Ação - 2h 28m - L"
             ],
             "tags": ["Carros"]
-            }
+            },
+            {
+                "title": "Monstros S.A",
+                "image": "monstrosSA.jpg",
+                "text": [
+                "Animação - 1h30m - L"
+                ],
+                "tags": ["Monstros S.A"]
+                },
+                
+                    {
+                    "title": "Interstellar",
+                    "image": "interstellar.jpg",
+                    "text": [
+                    "Aventura - 2h 49m - 10"
+                    ],
+                    "tags": ["Interstellar"]
+                    },
+                        {
+                        "title": "Aquaman",
+                        "image": "aquaman.jpg",
+                        "text": [
+                        "Aventura - 2h 23m - 12"
+                        ],
+                        "tags": ["Aquaman"]
+                        }        
 ]
